@@ -33,7 +33,7 @@ quantidade_dias = abs((d2 - d1).days)
 
 #---------------------------- caso o ano seja bissesto
 dias = 365
-if(ano/4 == True):
+if(ano % 4 == 0):
 	dias = 366
 else:
 	dias = 365
